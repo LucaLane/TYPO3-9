@@ -1,0 +1,369 @@
+[Tue Dec 12 21:23:42.193600 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Tue Dec 12 21:23:42.208806 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Tue Dec 12 21:23:42.209558 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Tue Dec 12 21:23:42.215926 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Tue Dec 12 21:23:42.216568 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Tue Dec 12 21:23:42.217530 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Tue Dec 12 21:23:42.218202 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Tue Dec 12 21:23:42.218764 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Tue Dec 12 21:23:42.219393 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Tue Dec 12 21:23:42.220137 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Tue Dec 12 21:23:42.220720 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Tue Dec 12 21:23:42.221351 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Tue Dec 12 21:23:42.221849 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Tue Dec 12 21:23:42.222706 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Tue Dec 12 21:23:42.223435 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Tue Dec 12 21:23:42.224101 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Tue Dec 12 21:23:42.224730 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Tue Dec 12 21:23:42.225339 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Tue Dec 12 21:23:42.243664 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Tue Dec 12 21:23:42.244597 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Tue Dec 12 21:23:42.245428 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Tue Dec 12 21:23:42.246334 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Tue Dec 12 21:23:42.247345 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Tue Dec 12 21:23:42.248118 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Tue Dec 12 21:23:42.252032 2017] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 21:23:42.267467 2017] [:notice] [pid 57] FastCGI: process manager initialized (pid 57)
+[Tue Dec 12 21:23:42.439985 2017] [mpm_prefork:notice] [pid 56] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Tue Dec 12 21:23:42.441287 2017] [core:notice] [pid 56] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Tue Dec 12 21:23:48.490854 2017] [negotiation:error] [pid 58] [client 192.168.32.1:51682] AH00687: Negotiation: discovered file(s) matching request: /var/www/web/typo3/install (None could be negotiated).
+[Tue Dec 12 21:23:49.467685 2017] [negotiation:error] [pid 58] [client 192.168.32.1:51682] AH00687: Negotiation: discovered file(s) matching request: /var/www/web/typo3/install (None could be negotiated).
+[Tue Dec 12 21:27:29.693765 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Tue Dec 12 21:27:29.694368 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Tue Dec 12 21:27:29.694688 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Tue Dec 12 21:27:29.695003 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Tue Dec 12 21:27:29.695379 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Tue Dec 12 21:27:29.695776 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Tue Dec 12 21:27:29.696116 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Tue Dec 12 21:27:29.696430 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Tue Dec 12 21:27:29.696766 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Tue Dec 12 21:27:29.697186 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Tue Dec 12 21:27:29.697564 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Tue Dec 12 21:27:29.697866 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Tue Dec 12 21:27:29.698196 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Tue Dec 12 21:27:29.698599 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Tue Dec 12 21:27:29.698905 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Tue Dec 12 21:27:29.699231 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Tue Dec 12 21:27:29.699633 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Tue Dec 12 21:27:29.699957 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Tue Dec 12 21:27:29.705239 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Tue Dec 12 21:27:29.705849 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Tue Dec 12 21:27:29.706285 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Tue Dec 12 21:27:29.706619 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Tue Dec 12 21:27:29.707770 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Tue Dec 12 21:27:29.708132 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Tue Dec 12 21:27:29.708486 2017] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 12 21:27:29.716965 2017] [:notice] [pid 58] FastCGI: process manager initialized (pid 58)
+[Tue Dec 12 21:27:29.752580 2017] [mpm_prefork:notice] [pid 57] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Tue Dec 12 21:27:29.753166 2017] [core:notice] [pid 57] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+[Wed Feb 14 08:18:30.622902 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Wed Feb 14 08:18:30.628868 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Wed Feb 14 08:18:30.629299 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Wed Feb 14 08:18:30.629645 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Wed Feb 14 08:18:30.629979 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Wed Feb 14 08:18:30.630325 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Wed Feb 14 08:18:30.631388 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Wed Feb 14 08:18:30.631773 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Wed Feb 14 08:18:30.632167 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Wed Feb 14 08:18:30.632641 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Wed Feb 14 08:18:30.633019 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Wed Feb 14 08:18:30.633377 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Wed Feb 14 08:18:30.633800 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Wed Feb 14 08:18:30.634272 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Wed Feb 14 08:18:30.634646 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Wed Feb 14 08:18:30.635018 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Wed Feb 14 08:18:30.635419 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Wed Feb 14 08:18:30.635829 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Wed Feb 14 08:18:30.641901 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Wed Feb 14 08:18:30.646058 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Wed Feb 14 08:18:30.648616 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Wed Feb 14 08:18:30.649175 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Wed Feb 14 08:18:30.649731 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Wed Feb 14 08:18:30.650249 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Wed Feb 14 08:18:30.650765 2018] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 14 08:18:30.739167 2018] [:notice] [pid 58] FastCGI: process manager initialized (pid 58)
+[Wed Feb 14 08:18:31.121545 2018] [mpm_prefork:notice] [pid 57] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Wed Feb 14 08:18:31.121978 2018] [core:notice] [pid 57] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Fri Mar 02 12:47:47.160734 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Fri Mar 02 12:47:47.161215 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Fri Mar 02 12:47:47.161550 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Fri Mar 02 12:47:47.161882 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Fri Mar 02 12:47:47.162200 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Fri Mar 02 12:47:47.162523 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Fri Mar 02 12:47:47.162818 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Fri Mar 02 12:47:47.163137 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Fri Mar 02 12:47:47.163464 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Fri Mar 02 12:47:47.163976 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Fri Mar 02 12:47:47.164315 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Fri Mar 02 12:47:47.164654 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Fri Mar 02 12:47:47.164965 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Fri Mar 02 12:47:47.165372 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Fri Mar 02 12:47:47.165711 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Fri Mar 02 12:47:47.166056 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Fri Mar 02 12:47:47.166439 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Fri Mar 02 12:47:47.166825 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Fri Mar 02 12:47:47.171342 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Fri Mar 02 12:47:47.172059 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Fri Mar 02 12:47:47.172423 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Fri Mar 02 12:47:47.172767 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Fri Mar 02 12:47:47.173162 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Fri Mar 02 12:47:47.173546 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Fri Mar 02 12:47:47.173948 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 02 12:47:47.183503 2018] [:notice] [pid 59] FastCGI: process manager initialized (pid 59)
+[Fri Mar 02 12:47:47.212782 2018] [mpm_prefork:notice] [pid 58] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Fri Mar 02 12:47:47.213170 2018] [core:notice] [pid 58] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Fri Mar 02 12:48:34.447750 2018] [autoindex:error] [pid 60] [client 172.20.0.1:45214] AH01276: Cannot serve directory /var/www/web/: No matching DirectoryIndex (index.html,index.php) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 02 12:48:40.423142 2018] [core:error] [pid 61] [client 172.20.0.1:45212] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Mar 06 14:56:59.013064 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Tue Mar 06 14:56:59.015290 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Tue Mar 06 14:56:59.015918 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Tue Mar 06 14:56:59.016255 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Tue Mar 06 14:56:59.016606 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Tue Mar 06 14:56:59.016908 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Tue Mar 06 14:56:59.017232 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Tue Mar 06 14:56:59.017567 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Tue Mar 06 14:56:59.017904 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Tue Mar 06 14:56:59.018307 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Tue Mar 06 14:56:59.018666 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Tue Mar 06 14:56:59.018949 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Tue Mar 06 14:56:59.019243 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Tue Mar 06 14:56:59.019633 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Tue Mar 06 14:56:59.019960 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Tue Mar 06 14:56:59.020252 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Tue Mar 06 14:56:59.020578 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Tue Mar 06 14:56:59.020889 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Tue Mar 06 14:56:59.025293 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Tue Mar 06 14:56:59.025691 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Tue Mar 06 14:56:59.026033 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Tue Mar 06 14:56:59.026337 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Tue Mar 06 14:56:59.026660 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Tue Mar 06 14:56:59.026986 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Tue Mar 06 14:56:59.027384 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 06 14:56:59.033399 2018] [:notice] [pid 59] FastCGI: process manager initialized (pid 59)
+[Tue Mar 06 14:56:59.368137 2018] [mpm_prefork:notice] [pid 58] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Tue Mar 06 14:56:59.368522 2018] [core:notice] [pid 58] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: sh: 1: /usr/bin/convert: not found
+/usr/bin/convert: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/composite: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+sh: 1: /usr/bin/convert: not found
+[Fri Mar 09 12:50:57.425431 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Fri Mar 09 12:50:57.428582 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Fri Mar 09 12:50:57.429145 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Fri Mar 09 12:50:57.429448 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Fri Mar 09 12:50:57.429722 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Fri Mar 09 12:50:57.430006 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Fri Mar 09 12:50:57.430581 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Fri Mar 09 12:50:57.430955 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Fri Mar 09 12:50:57.431300 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Fri Mar 09 12:50:57.431706 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Fri Mar 09 12:50:57.431998 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Fri Mar 09 12:50:57.432339 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Fri Mar 09 12:50:57.432626 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Fri Mar 09 12:50:57.432967 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Fri Mar 09 12:50:57.433256 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Fri Mar 09 12:50:57.433506 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Fri Mar 09 12:50:57.433824 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Fri Mar 09 12:50:57.434076 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Fri Mar 09 12:50:57.438338 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Fri Mar 09 12:50:57.438803 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Fri Mar 09 12:50:57.439145 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Fri Mar 09 12:50:57.439428 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Fri Mar 09 12:50:57.439719 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Fri Mar 09 12:50:57.440014 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Fri Mar 09 12:50:57.440277 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 09 12:50:57.446143 2018] [:notice] [pid 59] FastCGI: process manager initialized (pid 59)
+[Fri Mar 09 12:50:57.858676 2018] [mpm_prefork:notice] [pid 58] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Fri Mar 09 12:50:57.859110 2018] [core:notice] [pid 58] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+sh: 1: /usr/bin/identify: not found
+[Fri Mar 16 07:52:30.178194 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Fri Mar 16 07:52:30.181077 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Fri Mar 16 07:52:30.181724 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Fri Mar 16 07:52:30.182145 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Fri Mar 16 07:52:30.182494 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Fri Mar 16 07:52:30.182874 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Fri Mar 16 07:52:30.183249 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Fri Mar 16 07:52:30.183615 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Fri Mar 16 07:52:30.183985 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Fri Mar 16 07:52:30.184438 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Fri Mar 16 07:52:30.184808 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Fri Mar 16 07:52:30.185181 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Fri Mar 16 07:52:30.185519 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Fri Mar 16 07:52:30.185939 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Fri Mar 16 07:52:30.186282 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Fri Mar 16 07:52:30.186607 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Fri Mar 16 07:52:30.186971 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Fri Mar 16 07:52:30.187287 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Fri Mar 16 07:52:30.191690 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Fri Mar 16 07:52:30.192532 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Fri Mar 16 07:52:30.192914 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Fri Mar 16 07:52:30.193275 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Fri Mar 16 07:52:30.193659 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Fri Mar 16 07:52:30.194002 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Fri Mar 16 07:52:30.194366 2018] [so:debug] [pid 58] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 16 07:52:30.200954 2018] [:notice] [pid 59] FastCGI: process manager initialized (pid 59)
+[Fri Mar 16 07:52:30.507416 2018] [mpm_prefork:notice] [pid 58] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Fri Mar 16 07:52:30.507761 2018] [core:notice] [pid 58] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Fri Mar 16 08:48:11.036505 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Fri Mar 16 08:48:11.039789 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Fri Mar 16 08:48:11.040522 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Fri Mar 16 08:48:11.040894 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Fri Mar 16 08:48:11.041238 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Fri Mar 16 08:48:11.041598 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Fri Mar 16 08:48:11.041930 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Fri Mar 16 08:48:11.042257 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Fri Mar 16 08:48:11.042604 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Fri Mar 16 08:48:11.043010 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Fri Mar 16 08:48:11.043320 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Fri Mar 16 08:48:11.043662 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Fri Mar 16 08:48:11.043988 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module expires_module from /usr/lib/apache2/modules/mod_expires.so
+[Fri Mar 16 08:48:11.044395 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module fastcgi_module from /usr/lib/apache2/modules/mod_fastcgi.so
+[Fri Mar 16 08:48:11.044710 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Fri Mar 16 08:48:11.045179 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Fri Mar 16 08:48:11.045564 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module mpm_prefork_module from /usr/lib/apache2/modules/mod_mpm_prefork.so
+[Fri Mar 16 08:48:11.045925 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Fri Mar 16 08:48:11.050191 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module php7_module from /usr/lib/apache2/modules/libphp7.2.so
+[Fri Mar 16 08:48:11.050812 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Fri Mar 16 08:48:11.051193 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Fri Mar 16 08:48:11.051530 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module reqtimeout_module from /usr/lib/apache2/modules/mod_reqtimeout.so
+[Fri Mar 16 08:48:11.051922 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Fri Mar 16 08:48:11.052225 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Fri Mar 16 08:48:11.052550 2018] [so:debug] [pid 38] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 16 08:48:11.060320 2018] [:notice] [pid 39] FastCGI: process manager initialized (pid 39)
+[Fri Mar 16 08:48:11.509092 2018] [core:warn] [pid 38] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 16 08:48:11.512941 2018] [mpm_prefork:notice] [pid 38] AH00163: Apache/2.4.10 (Debian) mod_fastcgi/mod_fastcgi-SNAP-0910052141 configured -- resuming normal operations
+[Fri Mar 16 08:48:11.513910 2018] [core:notice] [pid 38] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'

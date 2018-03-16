@@ -1,0 +1,7 @@
+#
+# PageTS for template_customer
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:template_customerx/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template_customerx/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template_customerx/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template_customerx/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">

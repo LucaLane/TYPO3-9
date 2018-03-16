@@ -1,0 +1,15 @@
+#############
+#### MOD ####
+#############
+mod {
+    SHARED {
+        defaultLanguageFlag = de
+        defaultLanguageLabel = deutsch
+        //en = 1
+        disableLanguages = 1
+    }
+    web_list {
+        listOnlyInSingleTableView = 1
+        enableDisplayBigControlPanel = activated
+    }
+}

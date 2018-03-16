@@ -1,0 +1,52 @@
+######################
+#### DEPENDENCIES ####
+######################
+#We probalby don't need this!
+<INCLUDE_TYPOSCRIPT: source="template/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = template_customerx/Resources/Public/Images/logo.svg
+        fileInverted = template_customerx/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = template_customerx
+        linktitle = template_customerx
+    }
+    favicon {
+        file = template_customerx/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = template_customerx/Resources/Private/Layouts/Page/
+        partialRootPath = template_customerx/Resources/Private/Partials/Page/
+        templateRootPath = template_customerx/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################################
+### CUSTOM EXTENSION TEMPLATES ###
+##################################
+customer {
+    view {
+        layoutRootPath = template_customerx/Resources/Private/Layouts/
+        partialRootPath = template_customerx/Resources/Private/Partials/
+        templateRootPath = template_customerx/Resources/Private/Templates/
+    }
+}
+
+
+########################################
+### CUSTOM CONTENT ELEMENT TEMPLATES ###
+########################################
+customer_contentelements {
+    view {
+        layoutRootPath = template_customerx/Resources/Private/Layouts/ContentElements/
+        partialRootPath = template_customerx/Resources/Private/Partials/ContentElements/
+        templateRootPath = template_customerx/Resources/Private/Templates/ContentElements/
+    }
+}

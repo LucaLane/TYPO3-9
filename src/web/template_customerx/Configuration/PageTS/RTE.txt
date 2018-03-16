@@ -1,0 +1,34 @@
+#############
+#### RTE ####
+#############
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    text {
+                        preset = template_customer
+                    }
+                    textcolumn {
+                        preset = template_customer
+                    }
+                    texticon {
+                        preset = template_customer
+                    }
+                    textmedia {
+                        preset = template_customer
+                    }
+                    textpic {
+                        preset = template_customer
+                    }
+                    textteaser {
+                        preset = template_customer
+                    }
+                    panel {
+                        preset = template_customer
+                    }
+                }
+            }
+        }
+    }
+}

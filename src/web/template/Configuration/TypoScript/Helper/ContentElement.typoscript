@@ -1,0 +1,83 @@
+##################################################
+### CONTENT ELEMENT SETTINGS                   ###
+### Shared settings for TYPO3 content elements ###
+##################################################
+lib.contentElement = FLUIDTEMPLATE
+lib.contentElement {
+
+    ################
+    ### TEMPLATE ###
+    ################
+    templateName = Default
+    templateRootPaths {
+        0 = template/Resources/Private/Templates/ContentElements/
+        10 = {$customer_contentelements.view.templateRootPath}
+    }
+    partialRootPaths {
+        0 = template/Resources/Private/Partials/ContentElements/
+        10 = {$customer_contentelements.view.partialRootPath}
+    }
+    layoutRootPaths {
+        0 = template/Resources/Private/Layouts/ContentElements/
+        10 = {$customer_contentelements.view.layoutRootPath}
+    }
+
+    ##########################
+    ### DATA PREPROCESSING ###
+    ##########################
+    dataProcessing {
+        1509614342 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        1509614342 {
+            references.fieldName = background_image
+            as = backgroundImage
+        }
+    }
+
+    ################
+    ### SETTINGS ###
+    ################
+    settings {
+        header {
+            defaultHeaderType = {$customer_contentelements.header.defaultHeaderType}
+            class = {$customer_contentelements.header.class}
+        }
+        subheader {
+            class = {$customer_contentelements.subheader.class}
+        }
+        preload {
+            images = {$customer_contentelements.preload.images}
+        }
+        lightbox {
+            cssClass = {$customer_contentelements.lightbox.cssClass}
+            prefix = {$customer_contentelements.lightbox.prefix}
+        }
+        gallery {
+            columnClass {
+                1 = {$customer_contentelements.gallery.columnClass.1}
+                2 = {$customer_contentelements.gallery.columnClass.2}
+                3 = {$customer_contentelements.gallery.columnClass.3}
+                4 = {$customer_contentelements.gallery.columnClass.4}
+                6 = {$customer_contentelements.gallery.columnClass.6}
+            }
+        }
+        menuthumbnail {
+            media {
+                height = {$customer_contentelements.menu_thumbnail.media.height}
+                width = {$customer_contentelements.menu_thumbnail.media.width}
+            }
+            title {
+                crop = {$customer_contentelements.menu_thumbnail.title.crop}
+            }
+            abstract {
+                crop = {$customer_contentelements.menu_thumbnail.abstract.crop}
+            }
+        }
+        uploads {
+            preview {
+                height = {$customer_contentelements.uploads.preview.height}
+                width = {$customer_contentelements.uploads.preview.width}
+            }
+        }
+    }
+
+}

@@ -1,0 +1,9 @@
+################
+#### PAGETS ####
+################
+<INCLUDE_TYPOSCRIPT: source="FILE:template/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:template/Configuration/PageTS/MOD.txt">
+#<INCLUDE_TYPOSCRIPT: source="FILE:template/Configuration/PageTS/Mod/Wizards/newContentElement.txt">

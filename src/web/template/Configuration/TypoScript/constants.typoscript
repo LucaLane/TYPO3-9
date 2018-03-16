@@ -1,0 +1,421 @@
+############################
+### CUSTOM SUBCATEGORIES ###
+###########################
+# customsubcategory=100=Page Template
+# customsubcategory=110=Logo
+# customsubcategory=111=Favicon
+# customsubcategory=112=Preloader
+# customsubcategory=120=Meta Settings
+# customsubcategory=137=Content Elements Preloading
+# customsubcategory=138=Content Elements Header
+# customsubcategory=139=Content Elements Subheader
+# customsubcategory=140=Content Elements Templates
+# customsubcategory=143=Content Element Menu
+# customsubcategory=144=Content Element General
+# customsubcategory=145=Content Element Uploads
+# customsubcategory=146=Content Element Gallery
+# customsubcategory=150=Config
+# customsubcategory=160=Theme
+# customsubcategory=165=Social Media
+# customsubcategory=167=Section Meta
+# customsubcategory=168=Section Language
+# customsubcategory=169=Section Copyright
+# customsubcategory=180=Tracking
+# customsubcategory=190=Customer Settings
+# customsubcategory=CustomerSettings=Extension Overrides
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        # cat=include template: basic/110/100; type=string; label=Logo: Leave blank to use website title from template instead
+        file =
+        # cat=include template: basic/110/110; type=string; label=Logo Inverted: Leave blank to use website title from template instead
+        fileInverted =
+        # cat=include template: basic/110/120; type=int+; label=Height: The image will not be resized!
+        height = 52
+        # cat=include template: basic/110/130; type=int+; label=Width: The image will not be resized!
+        width = 180
+        # cat=include template: basic/110/140; type=string; label=Alternative text: Text of the alt attribute of the logo image (default: "<website title> logo")
+        alt =
+        # cat=include template: basic/110/150; type=string; label=Link title: Title of the link attribute of the logo image
+        linktitle =
+    }
+
+    preloader {
+        # cat=include template: basic/112/1_enable; type=boolean; label=Preloader: Enable to display the preloader
+        enable = 1
+        logo {
+            # cat=include template: basic/112/2_logo_file; type=string; label=Logo: Leave blank to don´t show a logo
+            file =
+            # cat=include template: basic/112/3_logo_height; type=int+; label=Height: The image will not be resized!
+            height = 52
+            # cat=include template: basic/112/4_logo_width; type=int+; label=Width: The image will not be resized!
+            width = 180
+        }
+        # cat=include template: basic/112/5_background_color; type=color; label=Background Color
+        backgroundColor = #333333
+        # cat=include template: basic/112/6_fade_duration; type=string; label=Fade duration
+        fadeDuration = 0.25
+    }
+
+    favicon {
+        # cat=include template: basic/111/100; type=string; label=Favicon
+        file =
+    }
+
+    theme {
+        # cat=include template: basic/160/100; type=options[Default=default, Default Transition=default-transition, Inverse=inverse, Inverse Transition=inverse-transition]; label=Navigation Style
+        navigationstyle = default
+        # cat=include template: basic/160/101; type=options[Default=, Fixed Top=top, Fixed Bottom=bottom]; label=Navigation Type
+        navigationtype =
+        navigationicon {
+            # cat=include template: basic/160/102; type=int+; label=Navigation Icon Width
+            width = 20
+            # cat=include template: basic/160/103; type=int+; label=Navigation Icon Height
+            height = 20
+        }
+        # cat=include template: basic/160/110; type=boolean; label=Breadcrumb: Enable to display the breadcrumb
+        breadcrumb = 1
+        # cat=include template: basic/160/111; type=int+; label=Breadcrumb Enable Level: Enable breadcrumb menu is greater or equal this value
+        breadcrumbEnableLevel = 2
+
+        meta {
+            # cat=include template: basic/167/meta_enable; type=boolean; label=MetaSection: Enable to display the MetaSection at bottom
+            enable = 1
+            # cat=include template: basic/167/meta_navigationValue; type=string; label=Meta Navigation Values: Comma separated list of page uids
+            navigationValue =
+            # cat=include template: basic/167/meta_navigationType; type=options[List=list, Directory=directory]; label=Meta Navigation Type
+            navigationType = list
+            # cat=include template: basic/167/meta_includeNotInMenu; type=boolean; label=Meta Navigation include items not in menu
+            includeNotInMenu = 1
+        }
+
+        language {
+            # cat=include template: basic/168/language_enable; type=boolean; label=LanguageSection: Enable to display the LanguageSection at bottom
+            enable = 1
+            # cat=include template: basic/168/language_languageValue; type=string; label=Language Navigation Values: Comma separated list of language uids
+            languageValue = 0,1,2
+        }
+
+        socialmedia {
+            # cat=include template: basic/165/00_enable; type=boolean; label=Social Media: Enable to display the social media links
+            enable = 1
+            channels {
+                facebook {
+                    label = Facebook
+                    # cat=include template: basic/165/01_facebook_url; type=string; label=Facebook: Insert the full account url
+                    url =
+                }
+                twitter {
+                    label = Twitter
+                    # cat=include template: basic/165/02_twitter_url; type=string; label=Twitter: Insert the full account url
+                    url =
+                }
+                instagram {
+                    label = Instagram
+                    # cat=include template: basic/165/03_instagram_url; type=string; label=Instagram: Insert the full account url
+                    url =
+                }
+                github {
+                    label = GitHub
+                    # cat=include template: basic/165/04_googleplus_url; type=string; label=GitHub: Insert the full account url
+                    url =
+                }
+                googleplus {
+                    label = Google+
+                    # cat=include template: basic/165/04_googleplus_url; type=string; label=Google+: Insert the full account url
+                    url =
+                }
+                linkedin {
+                    label = LinkedIn
+                    # cat=include template: basic/165/05_linkedin_url; type=string; label=LinkedIn: Insert the full account url
+                    url =
+                }
+                xing {
+                    label = Xing
+                    # cat=include template: basic/165/06_xing_url; type=string; label=Xing: Insert the full account url
+                    url =
+                }
+                youtube {
+                    label = YouTube
+                    # cat=include template: basic/165/07_youtube_url; type=string; label=YouTube: Insert the full account url
+                    url =
+                }
+                vimeo {
+                    label = Vimeo
+                    # cat=include template: basic/165/08_vimeo_url; type=string; label=Vimeo: Insert the full account url
+                    url =
+                }
+            }
+        }
+
+        copyright {
+            # cat=include template: basic/169/120; type=boolean; label=Copyright: Enable to display the copyright
+            enable = 1
+            # cat=include template: basic/169/121; type=string; label=Copyright Text
+            #@TODO: make this year independent
+            text = cab services ag - Grellingerstrasse 60 - CH 4052 Basel
+        }
+    }
+
+    fluidtemplate {
+        # cat=include template: advanced/100/100; type=string; label=Layout Root Path: Path to layouts
+        layoutRootPath = template/Resources/Private/Layouts/Page/
+        # cat=include template: advanced/100/110; type=string; label=Partial Root Path: Path to partials
+        partialRootPath = template/Resources/Private/Partials/Page/
+        # cat=include template: advanced/100/120; type=string; label=Template Root Path: Path to templates
+        templateRootPath = template/Resources/Private/Templates/Page/
+    }
+
+    meta {
+        # cat=include template: basic/120/100; type=string; label=Description: Enter a short description of the page. It will be displayed in the result lists of most search engines.
+        description =
+        # cat=include template: basic/120/110; type=string; label=Author: Enter the page author's name.
+        author =
+        # cat=include template: basic/120/120; type=string; label=Keywords: Enter keywords for the page separated by commas. You may also use short phrases.
+        keywords =
+        # cat=include template: advanced/120/100; type=string; label=viewport
+        viewport = width=device-width, initial-scale=1
+        # cat=include template: advanced/120/110; type=string; label=robots
+        robots = index,follow
+        # cat=include template: advanced/120/120; type=string; label=apple-mobile-web-app-capable
+        apple-mobile-web-app-capable = no
+        # cat=include template: advanced/120/130; type=string; label=compatible
+        compatible = IE=edge
+        # cat=include template: advanced/120/140; type=string; label=google
+        google = notranslate
+        # cat=include template: advanced/120/150; type=string; label=google-site-verfification
+        google-site-verification =
+    }
+
+    tracking {
+        google {
+            # cat=include template: basic/180/100; type=string; label=Google: Tracking-ID
+            trackingID =
+            # cat=include template: basic/180/110; type=boolean; label=Google: IP-anonymisation
+            anonymizeIp = 1
+        }
+    }
+}
+
+##############
+### CONFIG ###
+##############
+config {
+    # cat=include template: advanced/150/110; type=boolean; label=No Cache
+    no_cache = 0
+    # cat=include template: advanced/150/120; type=options[Do not remove=0,Remove=1,Move to external file=external]; label=Remove default JavaScript
+    removeDefaultJS = 0
+    # cat=include template: advanced/150/130; type=boolean; label=Compress JavaScript
+    compressJs = 0
+    # cat=include template: advanced/150/140; type=boolean; label=Compress Css
+    compressCss = 0
+    # cat=include template: advanced/150/150; type=boolean; label=Concatenate JavaScript
+    concatenateJs = 0
+    # cat=include template: advanced/150/160; type=boolean; label=Concatenate Css
+    concatenateCss = 0
+    # cat=include template: advanced/150/170; type=boolean; label=Admin Panel
+    admPanel = 1
+    # cat=include template: advanced/150/180; type=options[None=,All=all,Cached=cached,Output=output]; label=Prefix local Anchors: See [http://docs.typo3.org/typo3cms/TyposcriptReference/Setup/Config/Index.html#prefixlocalanchors] for explanation.
+    prefixLocalAnchors = all
+    # cat=include template: advanced/150/190; type=string; label=Header Comment
+    headerComment = Website created by cab services ag
+    # cat=include template: advanced/150/200; type=boolean; label=Force images preload: Preload images even when not visible on page to allow print
+    preloadImages = 0
+    # cat=include template: advanced/150/210; type=boolean; label=Send cache headers: Allow appropriate caching by transparent proxies and browser clients
+    sendCacheHeaders = 1
+    # cat=include template: advanced/150/220; type=boolean; label=Enable links accross domains: This option enables to create links across domains using current domain's linking scheme.
+    typolinkEnableLinksAcrossDomains = 0
+}
+
+###############
+### FELOGIN ###
+###############
+styles.content.loginform {
+    templateFile = template/Resources/Private/Templates/FrontendLogin/FrontendLogin.html
+}
+
+##################################
+### CUSTOM EXTENSION TEMPLATES ###
+##################################
+customer {
+    view {
+        # cat=include template: advanced/customer/layoutRootPath; type=string; label=Layout Root Path: Path to layouts
+        layoutRootPath = template/Resources/Private/Layouts/
+        # cat=include template: advanced/customer/partialRootPath; type=string; label=Partial Root Path: Path to partials
+        partialRootPath = template/Resources/Private/Partials/
+        # cat=include template: advanced/customer/templateRootPath; type=string; label=Template Root Path: Path to templates
+        templateRootPath = template/Resources/Private/Templates/
+    }
+}
+
+########################################
+### CUSTOM CONTENT ELEMENT TEMPLATES ###
+########################################
+customer_contentelements {
+    header {
+        # cat=include template: advanced/138/defaultHeaderType; type=int[1-5]; label=Default Header type: Enter the number of the header layout to be used by default
+        defaultHeaderType = 2
+        # cat=include template: advanced/138/class; type=string; label=Default Header class
+        class = element-header
+    }
+    subheader {
+        # cat=include template: advanced/139/class; type=string; label=Default Subheader class
+        class = element-subheader
+    }
+    view {
+        # cat=include template: advanced/140/layoutRootPath; type=string; label=Layout Root Path: Path to layouts
+        layoutRootPath = template/Resources/Private/Layouts/ContentElements/
+        # cat=include template: advanced/140/partialRootPath; type=string; label=Partial Root Path: Path to partials
+        partialRootPath = template/Resources/Private/Partials/ContentElements/
+        # cat=include template: advanced/140/templateRootPath; type=string; label=Template Root Path: Path to templates
+        templateRootPath = template/Resources/Private/Templates/ContentElements/
+    }
+    preload {
+        # cat=include template: advanced/137/100; type=boolean; label=Preload Images
+        images = 0
+    }
+    lightbox {
+        # cat=include template: advanced/144/100; type=string; label=Lightbox Css Class
+        cssClass = lightbox
+        # cat=include template: advanced/144/101; type=string; label=Lightbox Group Prefix
+        prefix = lightbox-group
+    }
+    gallery {
+        columnClass {
+            # cat=include template: advanced/146/100; type=string; label=Gallery Item CSS Class for 1 column
+            1 = col-12
+            # cat=include template: advanced/146/101; type=string; label=Gallery Item CSS Class for 2 columns
+            2 = col-sm-6 col-12
+            # cat=include template: advanced/146/102; type=string; label=Gallery Item CSS Class for 3 columns
+            3 = col-4
+            # cat=include template: advanced/146/103; type=string; label=Gallery Item CSS Class for 4 Columns
+            4 = col-sm-3 col-6
+            # cat=include template: advanced/146/104; type=string; label=Gallery Item CSS Class for 6 Columns
+            6 = col-md-2 col-sm-3 col-4
+        }
+    }
+    menu_thumbnail {
+        media {
+            # cat=include template: advanced/143/102; type=string; label=Thumbnail Menu Media Height
+            height = 250c
+            # cat=include template: advanced/143/103; type=string; label=Thumbnail Menu Media Width
+            width = 440c
+        }
+        title {
+            # cat=include template: advanced/143/104; type=string; label=Thumbnail Menu Crop Title
+            crop = 100
+        }
+        abstract {
+            # cat=include template: advanced/143/105; type=string; label=Thumbnail Menu Crop Abstract
+            crop = 250
+        }
+    }
+    uploads {
+        preview {
+            # cat=include template: advanced/145/100; type=string; label=Uploads Preview Height
+            height = 100c
+            # cat=include template: advanced/145/101; type=string; label=Uploads Preview Width
+            width = 100c
+        }
+    }
+}
+
+##############################
+#### OBSOLETE FROM EMBOSS ####
+##############################
+
+css = styles.min.css
+
+[globalString = IENV:HTTP_HOST=*.local]
+  css = styles.css
+[global]
+
+
+# page constants
+#PID.home = 3
+#PID.data = 4
+#PID.notfound = 6
+#PID.search = 41
+#PID.sitemap = 42
+#PID.contact = 43
+#PID.metaNav = 51
+#PID.defaultContent = 52
+
+# page title
+#TEXT.pagetitle = EMBOSS
+#TEXT.titleCol = Main Content
+#TEXT.search = Suchen
+#TEXT.defaultcontent = Ersatzinhalte
+#TEXT.footernav = Footer Navigation
+
+
+#lib.socialLinks
+#Link.twitter = https://twitter.com/
+#Link.facebook = https://www.facebook.com/
+#Link.youtube = https://www.youtube.com/
+#Link.linkedin = https://www.linkedin.com/
+
+# english
+#[globalVar = GP:L = 1]
+#lang {
+#    current_key = en
+#    current_locale = en_US.UTF-8
+#    current_uid = 1
+#}
+#[global]
+
+
+
+
+######## LIB OBJECTS
+#@TODO: check why this is needed in three languages
+#TEXT.googleSearchJs (
+#<script>
+#  (function() {
+#    var cx = '008002787257720403828:2aoiydsmuoe';
+#    var gcse = document.createElement('script');
+#    gcse.type = 'text/javascript';
+#    gcse.async = true;
+#    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+#    var s = document.getElementsByTagName('script')[0];
+#    s.parentNode.insertBefore(gcse, s);
+#  })();
+#</script>
+#)
+
+# Italian
+#[globalVar = GP:L = 1]
+#TEXT.googleSearchJs (
+#<script>
+#  (function() {
+#    var cx = '013047870986432931071:cuybrjaghio';
+#    var gcse = document.createElement('script');
+#    gcse.type = 'text/javascript';
+#    gcse.async = true;
+#    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+#    var s = document.getElementsByTagName('script')[0];
+#    s.parentNode.insertBefore(gcse, s);
+#  })();
+#</script>
+#)
+#[global]
+
+# French
+#[globalVar = GP:L = 3]
+#TEXT.googleSearchJs (
+#<script>
+#  (function() {
+#    var cx = '013047870986432931071:zyasik7vuts';
+#    var gcse = document.createElement('script');
+#    gcse.type = 'text/javascript';
+#    gcse.async = true;
+#    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+#    var s = document.getElementsByTagName('script')[0];
+#    s.parentNode.insertBefore(gcse, s);
+#  })();
+#</script>
+#)
+#[global]

@@ -1,0 +1,326 @@
+/*
+TCEFORM.tt_content.section_frame.addItems {
+    101 = LLL:template/Language/locallang_db.xlf:section_frame.101
+}
+
+TCEFORM.tt_content {
+    imagecols {
+        removeItems = 5,6,7,8,9
+
+        altLabels {
+            1 = LLL:template/Language/locallang_db.xlf:imagecols.12
+            2 = LLL:template/Language/locallang_db.xlf:imagecols.6
+            3 = LLL:template/Language/locallang_db.xlf:imagecols.4
+            4 = LLL:template/Language/locallang_db.xlf:imagecols.3
+        }
+    }
+    # add section color
+    tx_emboss_section_option_color {
+        addItems {
+            2 = LLL:template/Language/locallang_db.xlf:sectionColor.2
+            2.icon = template/Images/section2.svg
+        }
+    }
+}
+
+
+
+
+
+TCAdefaults.tt_content {
+    #set the default value EX:
+    #header_position = text-center
+    imagecols = 1
+    header_layout = 2
+}
+
+
+mod.web_layout.BackendLayouts {
+    BELayout0 {
+        title = LLL:template/Language/locallang_db.xlf:BELayout.0
+        config {
+            backend_layout {
+                colCount = 1
+                rowCount = 2
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:template/Language/locallang_db.xlf:content
+                                colPos = 0
+                            }
+                        }
+                    }
+                    2 {
+                        columns {
+                            1 {
+                                name = LLL:template/Language/locallang_db.xlf:footer
+                                colPos = 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        icon = template/Images/BELayout0.svg
+    }
+    BELayout1 < .BELayout0
+    BELayout1 {
+        title = LLL:template/Language/locallang_db.xlf:BELayout.1
+        icon = template/Images/BELayout1.svg
+        config {
+            backend_layout {
+                rowCount = 1
+                #remove the footer fot the this layout
+                rows.2 >
+            }
+        }
+    }
+    
+}
+
+
+
+#for the RTE
+
+
+RTE.config.tt_content.bodytext.showButtons = *
+RTE.default.showButtons = *
+RTE.config.tableName.columnName.showButtons  = *
+RTE.default.contentCSS = template/Css/Richtext.css
+
+RTE.default {
+    hideTableOperationsInToolbar = 0
+    buttons.toggleborders.keepInToolbar = 0
+    #böse: removeTagsAndContents = font
+    removeTags = font
+    proc.entryHTMLparser_db.removeTags = font
+    disableAlignmentFieldsetInTableOperations = 0
+    disableSpacingFieldsetInTableOperations = 1
+    disableColorFieldsetInTableOperations = 1
+    disableLayoutFieldsetInTableOperations = 0
+    disableBordersFieldsetInTableOperations = 1
+    
+    # RTE showButtons
+    proc.allowedClasses (
+        external-link, external-link-new-window, internal-link, internal-link-new-window, download, mail,
+        align-left, align-center, align-right, align-justify,
+        csc-frame-frame1, csc-frame-frame2,
+        component-items, action-items,
+        component-items-ordered, action-items-ordered,
+        important, detail,
+        indent, url, modified, table, table-striped, table-bordered, table-hover,
+        text-right, text-center, text-left, lead, small,
+        list-unstyled, list-inline,
+        pull-right, btn, btn-primary,
+    )
+    proc.removeTags =
+    proc.entryHTMLparser_db.removeTags := removeFromList(font,strike,u,table,tr,td)
+
+    proc {
+        keepPDIVattribs = title, data-placement
+        dontUndoHSC_db = 1
+        dontHSC_rte = 1
+        
+        a {
+                allowedAttribs = id, title, dir, lang, xml:lang, class, itemscope, itemtype, itemprop
+                fixAttrib.align.unset = 1
+        }
+    }
+
+
+    
+    # add address (was removed from removeItems)
+    FE.buttons.formatblock.removeItems = pre
+    buttons.formatblock.removeItems = pre
+    
+    showButtons := addToList(fontstyle,fontsize,textcolor,blockstyle,textstyle,formatblock)
+    
+    buttons {
+        blockstyle {
+            tags {
+                p {
+                    allowedClasses = text-right, text-center, text-left, lead
+                }
+                
+                ul {
+                    allowedClasses = list-unstyled, list-inline
+                }
+                blockquote {
+                    allowedClasses := addToList(pull-right)
+                }
+                table.allowedClasses := addToList(table, table-striped, table-bordered, table-hover)
+            }
+        }
+        
+        textstyle {
+            tags { 
+                span {
+                        allowedClasses := addToList(small) 
+                } 
+            } 
+        }
+        
+        link {
+            properties.class.allowedClasses := addToList(btn-primary, btn)
+
+        }
+    
+    }
+}
+
+### RTE classes menu
+RTE.classes {
+    align-justify {
+        name = Blocksatz
+    }
+    text-right {
+        name = right text
+    } 
+    text-center{
+        name = center text
+    } 
+    text-left{
+        name = left text
+    } 
+    lead {
+        name = lead text
+    } 
+    
+    table {
+        name = table 
+        value = table
+    }
+    table-striped {
+        name = striped table 
+        requires = table
+    }
+    table-bordered {
+        name = bordered table 
+        requires = table
+    }
+    table-hover {
+        name = hover table 
+        requires = table
+    }
+    
+    # list
+    list-unstyled {
+        name = Unstyled List
+    }
+    list-inline  {
+        name = Inline List
+    }
+    
+    # Right Blockquote 
+    pull-right {
+        name = Right Aligned Blockquote
+    }
+    btn-primary {
+        name = Primary Button
+        requires = btn
+    }
+}
+
+### RTE Link styles 
+RTE.classesAnchor {
+    externalLink {
+        class = external-link
+        type = url
+        image >
+        altText >
+        titleText >
+    }
+    externalLinkInNewWindow {
+        class = external-link-new-window
+        type = url
+        image >
+        altText >
+        titleText >
+    }
+    internalLink {
+        class = internal-link
+        type = page
+        image >
+        altText >
+        titleText >
+    }
+    internalLinkInNewWindow {
+        class = internal-link-new-window
+        type = page
+        image >
+        altText >
+        titleText >
+    }
+    download {
+        class = download
+        type = file
+        image >
+        altText >
+        titleText >
+    }
+    mail {
+        class = mail
+        type = mail
+        image >
+        altText >
+        titleText >
+    }
+    btn-primary-INTERNAL {
+        class = btn-primary
+        type = page
+    }
+    btn-primary-EXTERNAL {
+        class = btn-primary
+        type = url
+    }
+    
+}
+
+# tt_content TCA
+
+TCEFORM.tt_content {
+    #section_frame.removeItems = 1,5,6,10,11,12,20,21,66
+    
+    # reset header_layout
+    header_layout.removeItems = 0,
+    header_layout {
+        altLabels.1 = LLL:template/Language/locallang_db.xlf:header.1
+        altLabels.2 = LLL:template/Language/locallang_db.xlf:header.2
+        altLabels.3 = LLL:template/Language/locallang_db.xlf:header.3
+        altLabels.4 = LLL:template/Language/locallang_db.xlf:header.4
+        altLabels.5 = LLL:template/Language/locallang_db.xlf:header.5
+        altLabels.6 = LLL:template/Language/locallang_db.xlf:header.6
+        
+        addItems {
+            #7 = my new Header
+        }
+    }
+    #remove element by CType 
+    #use the RTE to creat table and Liste:
+    CType {
+        removeItems := addToList(table,bullets)
+    }
+}
+
+#hidden the field from the ext emboss_lightbox
+TCEFORM.tt_content {
+    tx_emboss_lightbox_hidedownload.disabled = 1
+    tx_emboss_lightbox_hidecaption.disabled = 1
+    tx_emboss_lightbox_hidepreview.disabled = 1
+    tx_emboss_lightbox_hidetitle.disabled = 1
+    tx_emboss_lightbox_hideauthor.disabled = 1
+    tx_emboss_lightbox_hideimagecount.disabled = 1
+}
+
+#visible element for admin and redacteur
+mod.wizards.newContentElement.wizardItems {
+
+    common.show := addToList(header,textmedia,uploads)
+    
+    #remove Element text,textpic,table,uploads,bullets
+    common.show := removeFromList(text,textpic,table,bullets)
+
+    special.show := addToList(menu,html,shortcut)
+}
+/*

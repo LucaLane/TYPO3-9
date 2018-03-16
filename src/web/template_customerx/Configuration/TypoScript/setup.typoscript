@@ -1,0 +1,35 @@
+######################
+#### DEPENDENCIES ####
+######################
+#We probalby don't need this!
+<INCLUDE_TYPOSCRIPT: source="template/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSSLibs {
+
+    }
+
+    includeCSS {
+
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+
+    }
+}
