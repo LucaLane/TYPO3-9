@@ -65,6 +65,9 @@ return [
         'saltedpasswords' => [
             'packagePath' => 'typo3/sysext/saltedpasswords/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'tstemplate' => [
             'packagePath' => 'typo3/sysext/tstemplate/',
         ],

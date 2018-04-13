@@ -45,7 +45,9 @@
     "typo3/cms-viewpage": "*",
     "typo3/cms-rte-ckeditor": "*",
     "LucaLane/customerx-template": "dev-master",
-    "LucaLane/include-template": "dev-master"
+    "LucaLane/include-template": "dev-master",
+    "typo3/cms-scheduler": "^9.1",
+    "helhum/typo3-console": "^5.2"
   },
   "extra": {
     "helhum/typo3-console": {

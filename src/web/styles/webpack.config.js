@@ -2,7 +2,8 @@ const webpack = require("webpack");
 const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-
+const path = require('path')
+console.log(path.resolve(__dirname, "../template/dist"))
 
 const config = {
     entry: {
@@ -12,7 +13,7 @@ const config = {
     },
     devtool: "source-map",
     output: {
-        path: __dirname + "/../../web/dist",
+        path: path.resolve(__dirname, "../template/dist"),
         filename: "js/[name].js"
     },
     module: {

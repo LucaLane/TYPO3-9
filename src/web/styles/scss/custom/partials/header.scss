@@ -1,0 +1,30 @@
+img.navbar-brand-logo-normal {
+  height:200px;
+
+}
+
+button.navbar-toggler{
+  background-image: url("/template_customerx/Resources/Public/Images/Hamburger_icon_hoch.png");
+  height: 45px;
+  width: 45px;
+  background-size: 45px;
+  background-repeat: no-repeat;
+}
+
+button.navbar-toggler.collapsed{
+  background-image: url("/template_customerx/Resources/Public/Images/Hamburger_icon.png");
+  height: 45px;
+  width: 45px;
+  background-size: 45px;
+  background-repeat: no-repeat;
+}
+
+.dropdown-hover{
+  padding: 8px 10px 0px 0px;
+}
+
+.dropdown-hover:hover{
+  .dropdown-menu{
+    display:block;
+  }
+}

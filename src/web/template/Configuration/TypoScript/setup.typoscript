@@ -424,7 +424,7 @@ page {
     }
 
     includeJSFooter {
-        template = template/dist/js/scripts.min.js
+        template = template/dist/js/bundle.min.js
         template.forceOnTop = 1
     }
 

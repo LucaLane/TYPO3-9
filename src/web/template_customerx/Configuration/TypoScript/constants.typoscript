@@ -10,11 +10,11 @@
 ############
 page {
     logo {
-        file = template_customerx/Resources/Public/Images/logo.svg
+        file = template_customerx/Resources/Public/Images/new_layne_logo.png
         fileInverted = template_customerx/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
-        alt = template_customerx
+        alt = Test_Logo
         linktitle = template_customerx
     }
     favicon {
